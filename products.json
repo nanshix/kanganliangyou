@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "name": "特级茉莉香米",
+        "category": "大米",
+        "tags": [
+            "米"
+        ],
+        "price": 32.5,
+        "stock": 50,
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
+        "description": "高品质长粒茉莉香米，带有淡淡的自然花香。"
+    },
+    {
+        "id": 2,
+        "name": "全麦面粉",
+        "category": "面粉",
+        "tags": [
+            "面"
+        ],
+        "price": 12,
+        "stock": 120,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+        "description": "精细研磨的全麦面粉，是健康烘焙的理想选择。"
+    },
+    {
+        "id": 3,
+        "name": "冷压初榨橄榄油",
+        "category": "食用油",
+        "tags": [
+            "油"
+        ],
+        "price": 45,
+        "stock": 30,
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+        "description": "特级初榨橄榄油，采用冷压工艺，最大限度保留营养和风味。"
+    },
+    {
+        "id": 7,
+        "name": "东北大米",
+        "category": "大米",
+        "tags": [
+            "米"
+        ],
+        "price": 25,
+        "stock": 100,
+        "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&q=80&w=400",
+        "description": "颗粒饱满，口感软糯，来自东北肥沃黑土地。"
+    },
+    {
+        "id": 8,
+        "name": "五常大米",
+        "category": "大米",
+        "tags": [
+            "米"
+        ],
+        "price": 48,
+        "stock": 60,
+        "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&q=80&w=400",
+        "description": "五常核心产区，稻花香2号，香气扑鼻，御用品质。"
+    },
+    {
+        "id": 9,
+        "name": "泰国香米",
+        "category": "大米",
+        "tags": [
+            "米"
+        ],
+        "price": 38,
+        "stock": 80,
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
+        "description": "泰国原装进口，米香浓郁，口感丝滑。"
+    },
+    {
+        "id": 10,
+        "name": "中筋面粉",
+        "category": "面粉",
+        "tags": [
+            "面"
+        ],
+        "price": 9,
+        "stock": 150,
+        "image": "https://images.unsplash.com/photo-1594913217596-189601d3f0a0?auto=format&fit=crop&q=80&w=400",
+        "description": "适合制作馒头、饺子、包子等中式面点。"
+    },
+    {
+        "id": 11,
+        "name": "高筋面粉",
+        "category": "面粉",
+        "tags": [
+            "面"
+        ],
+        "price": 11.5,
+        "stock": 100,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+        "description": "麦香浓郁，筋度高，适合制作面包和面条。"
+    },
+    {
+        "id": 12,
+        "name": "玉米面",
+        "category": "杂粮",
+        "tags": [
+            "面"
+        ],
+        "price": 6.5,
+        "stock": 200,
+        "image": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcc4?auto=format&fit=crop&q=80&w=400",
+        "description": "精磨细面，营养丰富，粗粮细吃的理想选择。"
+    },
+    {
+        "id": 13,
+        "name": "花生油",
+        "category": "食用油",
+        "tags": [
+            "油"
+        ],
+        "price": 88,
+        "stock": 40,
+        "image": "https://images.unsplash.com/photo-1620706122114-0e7834578619?auto=format&fit=crop&q=80&w=400",
+        "description": "压榨工艺，浓郁花生香味，适合爆炒。"
+    },
+    {
+        "id": 14,
+        "name": "菜籽油",
+        "category": "食用油",
+        "tags": [
+            "油"
+        ],
+        "price": 65,
+        "stock": 50,
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+        "description": "传统压榨，纯正香气，适合川菜烹饪。"
+    },
+    {
+        "id": 15,
+        "name": "大豆油",
+        "category": "食用油",
+        "tags": [
+            "油"
+        ],
+        "price": 45,
+        "stock": 100,
+        "image": "https://images.unsplash.com/photo-1581447100512-c7ce428a7e3a?auto=format&fit=crop&q=80&w=400",
+        "description": "非转基因大豆，色泽金黄，日常烹饪首选。"
+    },
+    {
+        "id": 16,
+        "name": "芝麻油",
+        "category": "食用油",
+        "tags": [
+            "油"
+        ],
+        "price": 25,
+        "stock": 90,
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+        "description": "小磨香油，滴滴纯香，凉拌与调味的点睛之笔。"
+    },
+    {
+        "id": 17,
+        "name": "红豆",
+        "category": "杂粮",
+        "tags": [
+            "米"
+        ],
+        "price": 8,
+        "stock": 150,
+        "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&q=80&w=400",
+        "description": "颗颗饱满，易煮烂，适合熬粥与制作甜品。"
+    },
+    {
+        "id": 18,
+        "name": "绿豆",
+        "category": "杂粮",
+        "tags": [
+            "米"
+        ],
+        "price": 7.5,
+        "stock": 180,
+        "image": "https://images.unsplash.com/photo-1516616370751-86d6bd8b055a?auto=format&fit=crop&q=80&w=400",
+        "description": "清热解暑，皮薄肉厚，消暑汤好伴侣。"
+    },
+    {
+        "id": 19,
+        "name": "小米",
+        "category": "杂粮",
+        "tags": [
+            "米"
+        ],
+        "price": 9,
+        "stock": 120,
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
+        "description": "正宗黄小米，熬出浓稠米油，极具营养。"
+    },
+    {
+        "id": 20,
+        "name": "黑米",
+        "category": "杂粮",
+        "tags": [
+            "米"
+        ],
+        "price": 10.5,
+        "stock": 100,
+        "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=400",
+        "description": "有机黑芝麻米，嚼劲十足，适合搭配大米同煮。"
+    }
+]

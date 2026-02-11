@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线订购 | 康安粮油</title>
+    <link rel="stylesheet" href="styles.css?v=1769520000">
+    <style>
+        .cart-toggle {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 10px 30px var(--primary-glow);
+            cursor: pointer;
+            z-index: 1200;
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--secondary);
+            color: black;
+            font-size: 0.8rem;
+            font-weight: 700;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body style="padding-top: 80px;">
+    <nav class="scrolled">
+        <div class="container">
+            <a href="index.html" class="logo">康安粮油</a>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="index.html#features">特色</a>
+                <a href="index.html#contact">联系</a>
+            </div>
+            <a href="#" class="nav-cta">购物车 (<span id="cart-total-count">0</span>)</a>
+        </div>
+    </nav>
+
+    <header class="booking-header">
+        <div class="container">
+            <h1 class="reveal">在线订购您的健康伴侣</h1>
+            <p class="reveal">为您的健康生活方式挑选特级必需品。</p>
+        </div>
+    </header>
+
+    <main class="container section">
+        <div class="filter-bar" id="filter-bar">
+            <button class="filter-btn active" data-tag="all">全部</button>
+            <button class="filter-btn" data-tag="米">米</button>
+            <button class="filter-btn" data-tag="面">面</button>
+            <button class="filter-btn" data-tag="油">油</button>
+        </div>
+        <div class="product-list" id="product-container">
+            <!-- Dynamic product injection -->
+        </div>
+    </main>
+
+    <div class="cart-drawer glass" id="cart-drawer">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+            <h2>您的购物车</h2>
+            <button id="close-cart"
+                style="background: none; border: none; color: var(--text); cursor: pointer; font-size: 2rem;">&times;</button>
+        </div>
+        <div id="cart-items" style="max-height: 60vh; overflow-y: auto;">
+            <!-- Dynamic cart item injection -->
+        </div>
+        <div style="margin-top: 2rem; border-top: 1px solid var(--glass-border); padding-top: 1.5rem;">
+            <div
+                style="display: flex; justify-content: space-between; font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem;">
+                <span>总计:</span>
+                <span id="cart-total-price">¥0.00</span>
+            </div>
+            <button class="btn btn-primary" style="width: 100%" id="checkout-btn">前往结算</button>
+        </div>
+    </div>
+
+    <div class="cart-toggle" id="cart-toggle">
+        🛒
+        <div class="cart-count">0</div>
+    </div>
+
+    <div id="toast"
+        style="position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--primary); color: white; padding: 1rem 2rem; border-radius: 100px; transition: transform 0.3s ease; z-index: 2000;">
+        已添加到购物车！
+    </div>
+
+    <script type="module" src="booking.js?v=1769520000"></script>
+</body>
+
+</html>
