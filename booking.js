@@ -148,7 +148,7 @@ checkoutBtn.addEventListener('click', () => {
         showToast('您的购物车还是空的！');
         return;
     }
-    alert('感谢您的订购！这只是一个演示——未处理实际付款。');
+    alert('感谢您的订购！由于微信收款限制，此处订单仅用于统计送货地址，请直接向 侯艳秋 (Hou Yanqiu) 付款。');
     cart = [];
     updateCartUI();
     cartDrawer.classList.remove('open');
